@@ -1,0 +1,30 @@
+.Player {
+    display: flex;
+    justify-content: center;
+}
+
+[class^="Player__"] {
+    width: 30%;
+    text-align: center;
+    margin: 5px;
+}
+
+.Player__score {
+    background: #95a5a6;
+}
+
+.Player__button {
+    cursor: pointer;
+}
+
+.Player__button--remove {
+    background: #e74c3c;
+}
+
+.Player__button--minus {
+    background: #e67e22;
+}
+
+.Player__button--plus {
+    background: #3498db;
+}
